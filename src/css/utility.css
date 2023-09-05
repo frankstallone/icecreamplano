@@ -144,6 +144,16 @@ Utilities for setting the width of an element. */
   grid-template-rows: masonry;
 }
 
+/* Cover */
+
+.cover > [data-margin-block-start='none'] {
+  margin-block-start: 0;
+}
+
+.cover > [data-margin-block-end='none'] {
+  margin-block-end: 0;
+}
+
 /* Flex */
 
 .flex {

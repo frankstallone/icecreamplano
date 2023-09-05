@@ -1,0 +1,62 @@
+---
+import { Picture } from '@astrojs/image/components';
+import iceCream from '../assets/ice-cream-plano-tx.jpg';
+---
+
+<div
+  class="grid"
+  data-layout="50-50"
+  style="--gap: 0; --spot-color: var(--gray200);"
+  id="main"
+>
+  <div class="box flow prose" id="instructor">
+    <h2 class="uppercase">
+      The Best Premium Artisanal Ice Cream in Plano, TX!
+    </h2>
+    <p>
+      In the vibrant setting of Plano, Texas, "The Dolly Llama" emerges as a
+      beacon of culinary brilliance, offering a delightful refuge for ice cream
+      aficionados. From the moment you enter, a blend of fragrant aromas guides
+      you to indulge in a bouquet of flavors that promise both innovation and a
+      warm embrace of tradition. Skillfully crafted by experts who regard each
+      scoop as a masterpiece, the ice cream here tells a tale of rich Texas
+      heritage, marked by fresh, locally-sourced ingredients that tantalize your
+      taste buds in a dance of textures and flavors, inviting both young and old
+      to embark on a nostalgic yet groundbreaking gastronomic adventure.
+    </p>
+    <p>
+      The environment at The Dolly Llama is as enchanting as its flavors,
+      combining rustic charm with modern elegance to offer a haven where one can
+      relish, connect, and unwind. As patrons step into this soothing sanctuary,
+      they are greeted by the calming glow that encourages camaraderie, sparking
+      lively conversations and hearty laughter amidst the delightful sounds of
+      ice cream being scooped generously onto freshly baked waffle cones. This
+      establishment is more than just an ice cream parlor; it's a space where
+      moments turn into cherished memories, facilitated by an ambiance that
+      promotes joy and unity.
+    </p>
+    <p>
+      But what truly sets The Dolly Llama apart is its role as a purveyor of
+      happiness, manifest in the glowing faces of those who visit. Whether it's
+      children lighting up with excitement or elders basking in sweet
+      reminiscences with every spoonful, the place resonates with sheer joy and
+      contentment. Here, ice cream is not just a treat but an intricate
+      experience, a heartfelt emotion, and a sweet tradition that invites people
+      to find solace in the simple yet profound joys of life. In the heart of
+      Plano, The Dolly Llama stands as a testament to the magic that happens
+      when fine cuisine meets heartfelt hospitality, offering not just dessert,
+      but a swirl of unforgettable, sweet memories waiting to be created.
+    </p>
+  </div>
+  <Picture
+    src={iceCream}
+    widths={[400, 700, 3456]}
+    aspectRatio={3456 / 5184}
+    width={3456}
+    height={5184}
+    class="object-contain h-auto"
+    alt="SEO friendly alt text"
+    quality={80}
+    format="avif"
+  />
+</div>
