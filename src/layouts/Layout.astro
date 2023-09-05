@@ -32,7 +32,7 @@ interface Props {
 
 const { meta } = Astro.props;
 
-const metaDescription = meta.description || 'BJJ - Brazilian Jiu Jitsu';
+const metaDescription = meta.description || 'The Dolly Llama - Plano Texas';
 ---
 
 <!DOCTYPE html>
@@ -41,7 +41,12 @@ const metaDescription = meta.description || 'BJJ - Brazilian Jiu Jitsu';
     <meta charset="UTF-8" />
     <meta name="description" content={metaDescription} />
     <meta name="viewport" content="width=device-width" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
     <meta name="generator" content={Astro.generator} />
     <title>{meta.title}</title>
     <!-- Google Fonts -->

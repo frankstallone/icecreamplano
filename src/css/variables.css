@@ -1,56 +1,16 @@
 /* Global variables */
+
+/* Leonardo
+https://leonardocolor.io/theme.html?name=The+Dolly+Llama&config=%7B%22baseScale%22%3A%22Blue%22%2C%22colorScales%22%3A%5B%7B%22name%22%3A%22Blue%22%2C%22colorKeys%22%3A%5B%22%231eced7%22%5D%2C%22colorspace%22%3A%22RGB%22%2C%22ratios%22%3A%5B%221.45%22%2C%222.05%22%2C%223.02%22%2C%224.54%22%2C%227%22%2C%2210.86%22%5D%2C%22smooth%22%3Afalse%7D%5D%2C%22lightness%22%3A100%2C%22contrast%22%3A1%2C%22saturation%22%3A100%2C%22formula%22%3A%22wcag2%22%7D
+*/
+
 :root {
-  --warmbreeze100: #eceae8;
-  --warmbreeze200: #d1cec9;
-  --warmbreeze300: #b8b3ab;
-  --warmbreeze400: #9f9990;
-  --warmbreeze500: #858078;
-  --warmbreeze600: #6b6861;
-  --warmbreeze700: #54504b;
-  --warmbreeze800: #3d3a37;
-  --warmbreeze900: #272623;
-  --warmbreeze1000: #111110;
-  --wine100: #ffe3e6;
-  --wine200: #fdbfc8;
-  --wine300: #fa98a9;
-  --wine400: #f46e8a;
-  --wine500: #ea3d69;
-  --wine600: #c91d50;
-  --wine700: #9b1b46;
-  --wine800: #750f2e;
-  --wine900: #50061a;
-  --wine1000: #2a020b;
-  --bronze100: #f4ebc2;
-  --bronze200: #dfce9e;
-  --bronze300: #c9b27a;
-  --bronze400: #b49657;
-  --bronze500: #997d45;
-  --bronze600: #7e6436;
-  --bronze700: #664c27;
-  --bronze800: #4e3619;
-  --bronze900: #37210c;
-  --bronze1000: #1f0c00;
-  --bronzeLoud: #ffb92e;
-  --sea100: #cff0f2;
-  --sea200: #8fdce0;
-  --sea300: #44c5cc;
-  --sea400: #30a9b0;
-  --sea500: #288e93;
-  --sea600: #217277;
-  --sea700: #19595d;
-  --sea800: #134144;
-  --sea900: #0c2a2c;
-  --sea1000: #061314;
-  --lime100: #e2f0cb;
-  --lime200: #b8da82;
-  --lime300: #91c341;
-  --lime400: #7ca738;
-  --lime500: #688c2f;
-  --lime600: #547126;
-  --lime700: #42591e;
-  --lime800: #304016;
-  --lime900: #1f290e;
-  --lime1000: #0e1206;
+  --blue100: #8ae5ea;
+  --blue200: #1eced7;
+  --blue300: #18a4ac;
+  --blue400: #138388;
+  --blue500: #0e6367;
+  --blue600: #0a4548;
   --gray100: hsl(0, 0%, 99%);
   --gray200: hsl(0, 0%, 97.3%);
   --gray300: hsl(0, 0%, 95.1%);
@@ -67,7 +27,6 @@
   --measure: 70ch;
   --color-light: white;
   --color-dark: var(--gray1200);
-  --color-loud: #3453ff;
   --ratio: 1.5;
   --line-height: var(--ratio);
   --line-height-small: calc(var(--ratio) * 0.7);
