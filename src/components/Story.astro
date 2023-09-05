@@ -1,0 +1,65 @@
+---
+import { Picture } from '@astrojs/image/components';
+import iceCream from '../assets/plano-ice-cream.jpg';
+---
+
+<div
+  class="grid"
+  data-layout="50-50"
+  style="--gap: 0; --spot-color: var(--gray200);"
+>
+  <Picture
+    src={iceCream}
+    widths={[400, 700, 3456]}
+    aspectRatio={3456 / 5184}
+    width={3456}
+    height={5184}
+    class="object-contain h-auto"
+    alt="SEO friendly alt text"
+    quality={80}
+    format="avif"
+  />
+  <div class="box flow prose justify-self-center" id="story">
+    <h2 class="uppercase">
+      Everyone Wants to Know Where The Dolly Llama Came From
+    </h2>
+    <p>
+      Well… she's a real llama who lives on a beautiful farm in the South of
+      France. She brings joy to everyone she meets and had a particularly
+      positive impact on Samuel Baroux.
+    </p>
+    <p>
+      Founded by real estate leader, Eric Shomof and European restaurateur and
+      entrepreneur, Samuel Baroux, The Dolly Llama made their dream of working
+      together into a reality. When these childhood friends turned businessmen
+      got together, magic happened!
+    </p>
+    <p>
+      If you know your llama facts, you know that llamas are social, friendly
+      and outgoing animals who generally love people! Dolly, the llama from
+      Sam's favorite llama farm in the South of France, is all that and more!
+    </p>
+    <p>
+      When looking to put their concept into fruition, Samuel and Eric, agreed
+      that Dolly would be the perfect representation for their ice cream and
+      waffle brand, bringing all that fun llama spirit into creative dessert
+      concoctions, happy customers and great, fun vibes!
+    </p>
+    <p>
+      And so, The Dolly Llama was created, and we've been lucky enough to
+      continue to serve up endless amounts of delicious happiness, daily!
+    </p>
+    <p>
+      Since its inception in 2017, The Dolly Llama has dominated LA's waffle
+      scene with its own unique take on the Bubble Waffle, in addition to Dolly
+      Llama Shakes, Waffle Sticks, and OG liege Waffles and continues to prove
+      that all waffles don't need syrup.
+    </p>
+    <p>
+      Not just your traditional dessert shop, it is a destination! With its
+      aesthetic flair, interactive environment, and unbeatable desserts, THE
+      DOLLY LLAMA attracts customers from all walks of life. Families,
+      individuals, date nights, students, our locations truly are magic!
+    </p>
+  </div>
+</div>

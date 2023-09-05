@@ -1,45 +1,87 @@
 ---
-
+import { Picture } from '@astrojs/image/components';
+import iceCream1 from '../assets/plano-tx-ice-cream-by-the-scoop-cone-or-cup-01.png';
+import iceCream2 from '../assets/plano-tx-ice-cream-by-the-scoop-cone-or-cup-02.png';
+import iceCream3 from '../assets/plano-tx-ice-cream-by-the-scoop-cone-or-cup-03.png';
+import iceCream4 from '../assets/plano-tx-ice-cream-by-the-scoop-cone-or-cup-04.png';
 ---
 
-<div class="region" id="difference">
-  <div class="wrapper flow prose" style="--flow-space: var(--space-l);">
-    <h2 class="uppercase">Our Difference</h2>
-    <p>
-      Why should you try Stallone &amp; Bako instead of the other options in
-      your home town?
-    </p>
-    <div class="grid" data-layout="50-50" style="--grid-min-item-size: 250px;">
-      <div
-        class="box flow prose clip-right"
-        style="--spot-color: var(--gray200);"
-      >
-        <h3>Beginners at Stallone &amp; Bako</h3>
-        <ul>
-          <li>High level, detailed instruction</li>
-          <li>Planned and evolving curriculum</li>
-          <li>Team / family environment</li>
-          <li>Coaches that care about your development</li>
-          <li>Culture that builds strong people on and off the mats</li>
-        </ul>
+<div class="region" id="menu">
+  <div
+    class="wrapper flow prose text-center"
+    style="--flow-space: var(--space-l);"
+  >
+    <h2 class="uppercase">Menu</h2>
+    <h3 class="uppercase">By the Scoop</h3>
+    <div class="grid" style="--grid-min-item-size: 250px;">
+      <div class="box flow prose" style="--spot-color: var(--gray200);">
+        <Picture
+          src={iceCream1}
+          widths={[400, 500, 768]}
+          aspectRatio={768 / 543}
+          width={768}
+          height={543}
+          class="object-contain h-auto"
+          alt="SEO friendly alt text"
+          quality={80}
+          format="avif"
+        />
+        <h4 class="uppercase">Cone or Cup</h4>
+        <p>Premium Artisan Ice Cream and Dairyfree selections by the scoop.</p>
       </div>
-      <div
-        class="box flow prose clip-right"
-        style="--spot-color: var(--gray200);"
-      >
-        <h3>Beginners at Other Gyms</h3>
-        <ul>
-          <li>Learn whatever the coach saw on youtube</li>
-          <li>
-            Forget the moves as soon as class ends, and never see them again
-          </li>
-          <li>An unwelcoming environment</li>
-          <li>
-            Train with people who try to hurt you because of ego / bad gym
-            culture
-          </li>
-          <li>Coaches that look at you as a commodity</li>
-        </ul>
+      <div class="box flow prose" style="--spot-color: var(--gray200);">
+        <Picture
+          src={iceCream2}
+          widths={[400, 500, 768]}
+          aspectRatio={768 / 675}
+          width={768}
+          height={675}
+          class="object-contain h-auto"
+          alt="SEO friendly alt text"
+          quality={80}
+          format="avif"
+        />
+        <h4 class="uppercase">Mini OG Box 6 PC. or 12 PC.</h4>
+        <p>
+          Box of 6 or 12 Mini-OG Liege Waffles sprinkled with powdered sugar.
+          Add ice cream, sauce and toppings.
+        </p>
+      </div>
+      <div class="box flow prose" style="--spot-color: var(--gray200);">
+        <Picture
+          src={iceCream3}
+          widths={[400, 500, 732]}
+          aspectRatio={732 / 786}
+          width={732}
+          height={786}
+          class="object-contain h-auto"
+          alt="SEO friendly alt text"
+          quality={80}
+          format="avif"
+        />
+        <h4 class="uppercase">Mini OG Ice Cream Sandwich</h4>
+        <p>
+          One large scoop of our Premium Ice Cream sandwiched between two Mini
+          OG Liege Waffles.
+        </p>
+      </div>
+      <div class="box flow prose" style="--spot-color: var(--gray200);">
+        <Picture
+          src={iceCream4}
+          widths={[400, 500, 768]}
+          aspectRatio={768 / 650}
+          width={768}
+          height={650}
+          class="object-contain h-auto"
+          alt="SEO friendly alt text"
+          quality={80}
+          format="avif"
+        />
+        <h4 class="uppercase">Shake N' Bake</h4>
+        <p>
+          One of our top shakes paired with a Signature OG Liege Waffle topped
+          with powdered sugar.
+        </p>
       </div>
     </div>
   </div>
