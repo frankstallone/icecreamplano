@@ -1,9 +1,6 @@
 ---
-import { Picture } from '@astrojs/image/components';
-import iceCream1 from '../assets/plano-tx-ice-cream-by-the-scoop-cone-or-cup-01.png';
-import iceCream2 from '../assets/plano-tx-ice-cream-by-the-scoop-cone-or-cup-02.png';
-import iceCream3 from '../assets/plano-tx-ice-cream-by-the-scoop-cone-or-cup-03.png';
-import iceCream4 from '../assets/plano-tx-ice-cream-by-the-scoop-cone-or-cup-04.png';
+import ByTheScoup from './ByTheScoup.astro';
+import Shakes from './Shakes.astro';
 ---
 
 <div class="region" id="menu">
@@ -12,77 +9,7 @@ import iceCream4 from '../assets/plano-tx-ice-cream-by-the-scoop-cone-or-cup-04.
     style="--flow-space: var(--space-l);"
   >
     <h2 class="uppercase mx-auto">Menu</h2>
-    <h3 class="uppercase mx-auto">By the Scoop</h3>
-    <div class="grid" style="--grid-min-item-size: 250px;">
-      <div class="box flow prose" style="--spot-color: var(--gray200);">
-        <Picture
-          src={iceCream1}
-          widths={[400, 500, 768]}
-          aspectRatio={768 / 543}
-          width={768}
-          height={543}
-          class="object-contain h-52"
-          alt="Collage of ice cream cones and cups."
-          quality={80}
-          format="avif"
-        />
-        <h4 class="uppercase">Cone or Cup</h4>
-        <p>Premium Artisan Ice Cream and Dairyfree selections by the scoop.</p>
-      </div>
-      <div class="box flow prose" style="--spot-color: var(--gray200);">
-        <Picture
-          src={iceCream2}
-          widths={[400, 500, 768]}
-          aspectRatio={768 / 675}
-          width={768}
-          height={675}
-          class="object-contain h-52"
-          alt="Box of six waffles and three toppings."
-          quality={80}
-          format="avif"
-        />
-        <h4 class="uppercase">Mini OG Box 6 PC. or 12 PC.</h4>
-        <p>
-          Box of 6 or 12 Mini-OG Liege Waffles sprinkled with powdered sugar.
-          Add ice cream, sauce and toppings.
-        </p>
-      </div>
-      <div class="box flow prose" style="--spot-color: var(--gray200);">
-        <Picture
-          src={iceCream3}
-          widths={[400, 500, 732]}
-          aspectRatio={732 / 786}
-          width={732}
-          height={786}
-          class="object-contain h-52"
-          alt="Mini waffle ice cream sandwich."
-          quality={80}
-          format="avif"
-        />
-        <h4 class="uppercase">Mini OG Ice Cream Sandwich</h4>
-        <p>
-          One large scoop of our Premium Ice Cream sandwiched between two Mini
-          OG Liege Waffles.
-        </p>
-      </div>
-      <div class="box flow prose" style="--spot-color: var(--gray200);">
-        <Picture
-          src={iceCream4}
-          widths={[400, 500, 768]}
-          aspectRatio={768 / 650}
-          width={768}
-          height={650}
-          class="object-contain h-52"
-          alt="Blue milkshake and liege waffle."
-          quality={80}
-          format="avif"
-        />
-        <h4 class="uppercase">Shake N' Bake</h4>
-        <p>
-          One of our top shakes paired with a Signature OG Liege Waffle topped
-          with powdered sugar.
-        </p>
-      </div>
-    </div>
+    <ByTheScoup />
+    <Shakes />
   </div>
 </div>

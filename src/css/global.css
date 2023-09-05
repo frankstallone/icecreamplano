@@ -34,16 +34,16 @@ h6 {
 }
 
 h1 {
-  font-size: var(--step-5);
+  font-size: var(--step-6);
 }
 
 h2 {
-  font-size: var(--step-4);
+  font-size: var(--step-6);
   color: var(--blue200);
 }
 
 h3 {
-  font-size: var(--step-3);
+  font-size: var(--step-5);
 }
 
 h4 {
