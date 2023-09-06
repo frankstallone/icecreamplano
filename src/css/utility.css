@@ -906,7 +906,7 @@ Utilities for controlling the alignment of text. */
 /* General */
 
 .color-loud {
-  color: var(--blue400);
+  color: var(--blue500);
 }
 
 .inset-0 {
