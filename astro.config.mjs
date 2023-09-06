@@ -5,11 +5,11 @@ import purgecss from 'astro-purgecss';
 
 // https://astro.build/config
 export default defineConfig({
-    integrations: [
-        sitemap(),
-        image({
-          serviceEntryPoint: '@astrojs/image/sharp',
-        }),
-        purgecss(),
-      ],
+  integrations: [
+    sitemap(),
+    image({
+      serviceEntryPoint: '@astrojs/image/sharp',
+    }),
+    purgecss(),
+  ],
 });

@@ -1376,3 +1376,13 @@ Utilities for controlling the display box type of an element. */
 .grid div:nth-child(even) .product-image:hover {
   rotate: -5deg;
 }
+
+/* Hero */
+
+.hero {
+  height: 60vh;
+  background:
+    linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 75%),
+    url('/media/ice-cream-plano-03.jpg') no-repeat center 50%;
+  background-size: cover;
+}

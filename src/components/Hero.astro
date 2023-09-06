@@ -1,37 +1,13 @@
 ---
 import Header from './Header.astro';
-import hero from '../assets/ice-cream-plano.jpg';
-import hero2 from '../assets/ice-cream-plano-01.jpg';
-import { Picture } from '@astrojs/image/components';
 ---
 
-<div>
-  <Header />
-  <div>
-    <h1 class="hidden">Ice Cream Plano</h1>
-    <Picture
-      src={hero2}
-      widths={[4096, 400, 700]}
-      aspectRatio={4096 / 2304}
-      width={4096}
-      height={2304}
-      class="object-contain h-auto"
-      alt="Ice Cream Plano"
-      quality={80}
-      format="avif"
-      loading="eager"
-    />
-    <!-- <Picture
-      src={hero}
-      widths={[6012, 400, 700]}
-      aspectRatio={6012 / 3382}
-      width={6012}
-      height={3382}
-      class="object-contain h-auto"
-      alt="Ice Cream Plano"
-      quality={80}
-      format="avif"
-      loading="eager"
-    /> -->
-  </div>
+<Header />
+<div class="hero flex justify-center">
+  <h1
+    class="uppercase"
+    style="margin-block-start: 10vh; font-weight: 700; color: white;"
+  >
+    Ice Cream Plano
+  </h1>
 </div>
