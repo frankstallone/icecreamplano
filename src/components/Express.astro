@@ -1,0 +1,86 @@
+---
+import { Picture } from '@astrojs/image/components';
+import expressWaffle1 from '../assets/plano-texas-ice-cream-express-waffles-01.png';
+import expressWaffle2 from '../assets/plano-texas-ice-cream-express-waffles-02.png';
+import expressWaffle3 from '../assets/plano-texas-ice-cream-express-waffles-03.png';
+import expressWaffle4 from '../assets/plano-texas-ice-cream-express-waffles-04.png';
+---
+
+<h4 class="uppercase mx-auto">Express</h4>
+<div class="grid" style="--grid-min-item-size: 250px;">
+  <div class="box flow prose" style="--spot-color: var(--gray200);">
+    <h5 class="uppercase color-loud step-3 my-0">1</h5>
+    <Picture
+      src={expressWaffle1}
+      widths={[400, 500, 768]}
+      aspectRatio={768 / 614}
+      width={768}
+      height={614}
+      class="object-contain h-52 product-image"
+      alt="Nutella Strawberries Express Waffle"
+      quality={80}
+      format="avif"
+    />
+    <h6 class="uppercase step-0">Nuttella Strawberries</h6>
+    <p>
+      Signature OG Liege Waffle topped with nutella sauce and fresh
+      strawberries.
+    </p>
+  </div>
+  <div class="box flow prose" style="--spot-color: var(--gray200);">
+    <h5 class="uppercase color-loud step-3 my-0">2</h5>
+    <Picture
+      src={expressWaffle2}
+      widths={[400, 500, 768]}
+      aspectRatio={768 / 616}
+      width={768}
+      height={616}
+      class="object-contain h-52 product-image"
+      alt="Maple Syrup Speculoos Crumbs Express Waffle"
+      quality={80}
+      format="avif"
+    />
+    <h6 class="uppercase step-0">Maple Syrup Speculoos Crumbs</h6>
+    <p>
+      Signature OG Liege Waffle topped with maple syrup and speculoos cookie
+      crumbs.
+    </p>
+  </div>
+  <div class="box flow prose" style="--spot-color: var(--gray200);">
+    <h5 class="uppercase color-loud step-3 my-0">3</h5>
+    <Picture
+      src={expressWaffle3}
+      widths={[400, 500, 732]}
+      aspectRatio={732 / 570}
+      width={732}
+      height={570}
+      class="object-contain h-52 product-image"
+      alt="Chocolate Syrup Banana Express Waffle"
+      quality={80}
+      format="avif"
+    />
+    <h6 class="uppercase step-0">Chocolate Syrup Banana</h6>
+    <p>
+      Signature OG Liege Waffle topped with chocolate syrup and fresh bananas.
+    </p>
+  </div>
+  <div class="box flow prose" style="--spot-color: var(--gray200);">
+    <h5 class="uppercase color-loud step-3 my-0">4</h5>
+    <Picture
+      src={expressWaffle4}
+      widths={[400, 500, 768]}
+      aspectRatio={768 / 581}
+      width={768}
+      height={581}
+      class="object-contain h-52 product-image"
+      alt="Peanut Butter Cinnamon Toast Crunch Express Waffle"
+      quality={80}
+      format="avif"
+    />
+    <h6 class="uppercase step-0">Peanut Butter Cinnamon Toast Crunch</h6>
+    <p>
+      Signature OG Liege Waffle topped with peanut butter and cinnamon toast
+      crunch.
+    </p>
+  </div>
+</div>

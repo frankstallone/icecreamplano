@@ -1,21 +1,22 @@
 ---
 import { Picture } from '@astrojs/image/components';
-import iceCream from '../assets/plano-ice-cream.jpg';
+import iceCream from '../assets/plano-ice-cream-02.jpg';
 ---
 
 <div
   class="grid"
   data-layout="50-50"
   style="--gap: 0; --spot-color: var(--gray200);"
+  id="our-story"
 >
   <Picture
     src={iceCream}
-    widths={[400, 700, 3456]}
-    aspectRatio={3456 / 5184}
-    width={3456}
-    height={5184}
+    widths={[400, 700, 3024]}
+    aspectRatio={3024 / 4032}
+    width={3024}
+    height={4032}
     class="object-contain h-auto"
-    alt="SEO friendly alt text"
+    alt="Best ice cream in Plano Texas"
     quality={80}
     format="avif"
   />

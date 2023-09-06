@@ -815,6 +815,14 @@ Utilities for controlling how an individual grid item is aligned along its inlin
   margin-block: auto;
 }
 
+.my-0 {
+  margin-block: 0;
+}
+
+.mx-0 {
+  margin-inline: 0;
+}
+
 /* Text Align
 Utilities for controlling the alignment of text. */
 
@@ -892,6 +900,10 @@ Utilities for controlling the alignment of text. */
 }
 
 /* General */
+
+.color-loud {
+  color: var(--blue300);
+}
 
 .inset-0 {
   inset: 0px;
@@ -1350,4 +1362,17 @@ Utilities for controlling the display box type of an element. */
 
 .hidden {
   display: none;
+}
+
+.product-image {
+  transition: all 0.3s ease-in-out;
+}
+
+.product-image:hover {
+  scale: 1.1;
+  rotate: 5deg;
+}
+
+.grid div:nth-child(even) .product-image:hover {
+  rotate: -5deg;
 }

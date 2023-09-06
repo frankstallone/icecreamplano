@@ -1,0 +1,163 @@
+---
+import { Picture } from '@astrojs/image/components';
+import waffle1 from '../assets/plano-texas-ice-cream-waffles-01.png';
+import waffle2 from '../assets/plano-texas-ice-cream-waffles-02.png';
+import waffle3 from '../assets/plano-texas-ice-cream-waffles-03.png';
+import waffle4 from '../assets/plano-texas-ice-cream-waffles-04.png';
+import waffle5 from '../assets/plano-texas-ice-cream-waffles-05.png';
+import waffle6 from '../assets/plano-texas-ice-cream-waffles-06.png';
+import waffle7 from '../assets/plano-texas-ice-cream-waffles-07.png';
+import waffle8 from '../assets/plano-texas-ice-cream-waffles-08.png';
+---
+
+<h4 class="uppercase mx-auto">Signature Waffles</h4>
+<h5 class="uppercase mx-auto step-3 color-loud">Bubble</h5>
+<div class="grid" style="--grid-min-item-size: 250px;">
+  <div class="box flow prose" style="--spot-color: var(--gray200);">
+    <Picture
+      src={waffle1}
+      widths={[400, 500, 768]}
+      aspectRatio={768 / 1025}
+      width={768}
+      height={1025}
+      class="object-contain h-52 product-image"
+      alt="Dolly's Dream Bubble Waffle"
+      quality={80}
+      format="avif"
+    />
+    <h5 class="uppercase">Dolly's Dream</h5>
+    <p>
+      Signature Bubble Waffle topped with Ultimate Cookie Monster ice cream,
+      fresh strawberries, brownies and nutella sauce.
+    </p>
+  </div>
+  <div class="box flow prose" style="--spot-color: var(--gray200);">
+    <Picture
+      src={waffle2}
+      widths={[400, 500, 768]}
+      aspectRatio={768 / 1136}
+      width={768}
+      height={1136}
+      class="object-contain h-52 product-image"
+      alt="Sugar n' Spice Bubble Waffle"
+      quality={80}
+      format="avif"
+    />
+    <h5 class="uppercase">Sugar N' Spice</h5>
+    <p>
+      Signature Bubble Waffle topped with Horchata ice cream, speculoos cookies,
+      cinnamon toast crunch and caramel sauce.
+    </p>
+  </div>
+  <div class="box flow prose" style="--spot-color: var(--gray200);">
+    <Picture
+      src={waffle3}
+      widths={[400, 500, 732]}
+      aspectRatio={732 / 1138}
+      width={732}
+      height={1138}
+      class="object-contain h-52 product-image"
+      alt="Llama Gone Nuts Bubble Waffle"
+      quality={80}
+      format="avif"
+    />
+    <h5 class="uppercase">Llama Gone Nuts</h5>
+    <p>
+      Signature Bubble Waffle topped with Vanilla ice cream fresh bananas,
+      almonds and peanut butter sauce.
+    </p>
+  </div>
+  <div class="box flow prose" style="--spot-color: var(--gray200);">
+    <Picture
+      src={waffle4}
+      widths={[400, 500, 768]}
+      aspectRatio={768 / 1116}
+      width={768}
+      height={1116}
+      class="object-contain h-52 product-image"
+      alt="Party Animal Bubble Waffle"
+      quality={80}
+      format="avif"
+    />
+    <h5 class="uppercase">Party Animal</h5>
+    <p>
+      Signature Bubble Waffle topped with Salted Caramel ice cream, kinder
+      chocolate bar, circus animal cookies and chocolate sauce.
+    </p>
+  </div>
+</div>
+<h5 class="uppercase mx-auto step-3 color-loud">OG Liege</h5>
+<div class="grid" style="--grid-min-item-size: 250px;">
+  <div class="box flow prose" style="--spot-color: var(--gray200);">
+    <Picture
+      src={waffle5}
+      widths={[400, 500, 768]}
+      aspectRatio={768 / 668}
+      width={768}
+      height={668}
+      class="object-contain h-52 product-image"
+      alt="Dolly's Dream Liege Waffle"
+      quality={80}
+      format="avif"
+    />
+    <h5 class="uppercase">Dolly's Dream</h5>
+    <p>
+      Signature OG Liege Waffle topped with Ultimate Cookie Monster ice cream,
+      fresh strawberries, brownies and nutella sauce.
+    </p>
+  </div>
+  <div class="box flow prose" style="--spot-color: var(--gray200);">
+    <Picture
+      src={waffle6}
+      widths={[400, 500, 768]}
+      aspectRatio={768 / 790}
+      width={768}
+      height={790}
+      class="object-contain h-52 product-image"
+      alt="Sugar n' Spice Liege Waffle"
+      quality={80}
+      format="avif"
+    />
+    <h5 class="uppercase">Sugar N' Spice</h5>
+    <p>
+      Signature OG Liege Waffle topped with Horchata ice cream, speculoos
+      cookies, cinnamon toast crunch and caramel sauce.
+    </p>
+  </div>
+  <div class="box flow prose" style="--spot-color: var(--gray200);">
+    <Picture
+      src={waffle7}
+      widths={[400, 500, 732]}
+      aspectRatio={732 / 662}
+      width={732}
+      height={662}
+      class="object-contain h-52 product-image"
+      alt="Llama Gone Nuts: Waffles with Ice Cream and Banana with Almonds, and Peanut Butter Sauce"
+      quality={80}
+      format="avif"
+    />
+    <h5 class="uppercase">Llama Gone Nuts</h5>
+    <p>
+      Signature OG Liege Waffle topped with Vanilla ice cream fresh bananas,
+      almonds and peanut butter sauce.
+    </p>
+  </div>
+  <div class="box flow prose" style="--spot-color: var(--gray200);">
+    <Picture
+      src={waffle8}
+      widths={[400, 500, 768]}
+      aspectRatio={768 / 781}
+      width={768}
+      height={781}
+      class="object-contain h-52 product-image"
+      alt="Party Animal Liege Waffle"
+      quality={80}
+      format="avif"
+    />
+    <h5 class="uppercase">Party Animal</h5>
+    <p>
+      Signature OG Liege Waffle topped with Salted Caramel ice cream, kinder
+      chocolate bar, circus animal cookies and chocolate sauce.
+    </p>
+  </div>
+</div>

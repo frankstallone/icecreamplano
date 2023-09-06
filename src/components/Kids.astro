@@ -1,0 +1,55 @@
+---
+import { Picture } from '@astrojs/image/components';
+import kids1 from '../assets/plano-texas-ice-cream-waffles-kids-01.png';
+import kids2 from '../assets/plano-texas-ice-cream-waffles-kids-02.png';
+import kids3 from '../assets/plano-texas-ice-cream-waffles-kids-03.png';
+---
+
+<h4 class="uppercase mx-auto">Kids</h4>
+<div class="grid" style="--grid-min-item-size: 303px;">
+  <div class="box flow prose" style="--spot-color: var(--gray200);">
+    <h5 class="uppercase color-loud step-3 my-0">1</h5>
+    <Picture
+      src={kids1}
+      widths={[400, 500, 768]}
+      aspectRatio={768 / 1039}
+      width={768}
+      height={1039}
+      class="object-contain h-52 product-image"
+      alt="Bubble Waffle Jr."
+      quality={80}
+      format="avif"
+    />
+    <h6 class="uppercase step-0">Bubble Waffle Jr.</h6>
+  </div>
+  <div class="box flow prose" style="--spot-color: var(--gray200);">
+    <h5 class="uppercase color-loud step-3 my-0">2</h5>
+    <Picture
+      src={kids2}
+      widths={[400, 500, 768]}
+      aspectRatio={768 / 666}
+      width={768}
+      height={666}
+      class="object-contain h-52 product-image"
+      alt="OG Liege Jr."
+      quality={80}
+      format="avif"
+    />
+    <h6 class="uppercase step-0">OG Liege Jr.</h6>
+  </div>
+  <div class="box flow prose" style="--spot-color: var(--gray200);">
+    <h5 class="uppercase color-loud step-3 my-0">3</h5>
+    <Picture
+      src={kids3}
+      widths={[400, 500, 732]}
+      aspectRatio={732 / 1052}
+      width={732}
+      height={1052}
+      class="object-contain h-52 product-image"
+      alt="Milkshake Jr."
+      quality={80}
+      format="avif"
+    />
+    <h6 class="uppercase step-0">Milkshake Jr.</h6>
+  </div>
+</div>

@@ -1,6 +1,10 @@
 ---
+import BuildYourOwn from './BuildYourOwn.astro';
 import ByTheScoup from './ByTheScoup.astro';
+import Express from './Express.astro';
+import Kids from './Kids.astro';
 import Shakes from './Shakes.astro';
+import SignatureWaffles from './SignatureWaffles.astro';
 ---
 
 <div class="region" id="menu">
@@ -9,7 +13,17 @@ import Shakes from './Shakes.astro';
     style="--flow-space: var(--space-l);"
   >
     <h2 class="uppercase mx-auto">Menu</h2>
+    <div class="box" style="--spot-color: var(--gray200);">
+      <h3 class="uppercase mx-auto">Our Premium Ice Cream</h3>
+    </div>
     <ByTheScoup />
     <Shakes />
+    <BuildYourOwn />
+    <div class="box" style="--spot-color: var(--gray200);">
+      <h3 class="uppercase mx-auto">Ice Cream + Waffles = Love</h3>
+    </div>
+    <SignatureWaffles />
+    <Express />
+    <Kids />
   </div>
 </div>
