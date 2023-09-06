@@ -1183,6 +1183,25 @@ Utilities for controlling how an element handles content that is too large for t
   overflow-y: scroll;
 }
 
+/* Will Change
+Utilities for optimizing upcoming animations of elements that are expected to change. */
+
+.will-change-auto {
+  will-change: auto;
+}
+
+.will-change-scroll {
+  will-change: scroll-position;
+}
+
+.will-change-contents {
+  will-change: contents;
+}
+
+.will-change-transform {
+  will-change: transform;
+}
+
 /* Display
 Utilities for controlling the display box type of an element. */
 
