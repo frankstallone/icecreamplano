@@ -1277,6 +1277,7 @@ Utilities for controlling the display box type of an element. */
 .product-image:hover {
   scale: 1.1;
   rotate: 5deg;
+  filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.25));
 }
 
 .grid div:nth-child(even) .product-image:hover {
