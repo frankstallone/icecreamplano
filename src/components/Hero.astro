@@ -3,11 +3,18 @@ import Header from './Header.astro';
 ---
 
 <Header />
-<div class="hero flex justify-center">
+<div class="hero flex flex-col justify-center items-center">
   <h1
     class="uppercase"
-    style="margin-block-start: 10vh; font-weight: 700; color: white;"
+    style="margin-block-end: var(--space-m); font-weight: 700; color: white; font-size: 15vw;"
   >
     Ice Cream Plano
   </h1>
+  <div
+    class="wrapper box spot-color-primary-dark text-center"
+    style="--border-thin: 0.5rem; border-style: dashed;"
+  >
+    <h2 class="uppercase mx-auto step-0">Exclusive 15% off coupon</h2>
+    <h3 class="uppercase mx-auto">icecream333</h3>
+  </div>
 </div>
