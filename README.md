@@ -1,6 +1,6 @@
-# Minimal BJJ Starter Kit
+# Ice cream Plano Texas website
 
-Minimal Brazilian Jui Jitsu website starter kit built with [Astro](https://astro.build).
+Built with [Astro](https://astro.build).
 
 ## 🚀 Project Structure
 
@@ -14,14 +14,7 @@ Inside of your Astro project, you'll see the following folders and files:
 ├── src/
 │   ├── assets/
 │   ├── components/
-│   │   ├── Benefits.astro
-│   │   ├── Contact.astro
-│   │   ├── Difference.astro
-│   │   ├── Footer.astro
-│   │   ├── Header.astro
-│   │   ├── Hero.astro
-│   │   ├── Instructor.astro
-│   │   └── Schedule.astro
+│   │   └── ...
 │   ├── css/
 │   │   ├── blocks/
 │   │   ├── utilities/
@@ -50,11 +43,6 @@ All other assets live directly in the `public/` directory. This is where you'll 
 We're using [Every Layout](https://every-layout.dev/rudiments/units/#utility-classes) to help with layout, [CubeCSS](https://cube.fyi/) for organization, and [TailwindCSS](https://tailwindcss.com/) utility classes (manually add what is needed).
 
 PurgeCSS is used to remove unused CSS classes from the final build.
-
-## ⚙️ Components
-
-- `<HeroTallVideo>` is for 9:16 videos
-- `<HeroWideVideo>` is for 16:9 videos
 
 ## 🧞 Commands
 
